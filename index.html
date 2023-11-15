@@ -3,11 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Schnuppertag | BOSSINFO</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML Lesson Fun</title>
   </head>
   <body>
-    <h1>Guten Morgen</h1>
-    <a href="https://codesandbox.io/s/intelligent-elgamal-tkjz7m"> Aufgabe 1</a>
+    <header>
+      <h1>Welcome to HTML Fun!</h1>
+      <p>Let's dive into the exciting world of HTML, CSS, and JavaScript.</p>
+    </header>
+
+    <div class="exercise" id="exercise1">
+      <h2>Exercise 1: Create a Heading</h2>
+      <p>
+        Use the <code>&lt;h2&gt;</code> tag to create a subheading for your
+        page.
+      </p>
+      <button onclick="showSolution('exercise1')">Show Solution</button>
+      <div id="solution1" class="solution" style="display: none">
+        <p><code>&lt;h2&gt;Your Subheading Here&lt;/h2&gt;</code></p>
+      </div>
+    </div>
+
+    <div class="exercise" id="exercise2">
+      <h2>Exercise 2: Style Your Heading</h2>
+      <p>
+        Add some CSS styles to your heading, such as changing the font color and
+        size.
+      </p>
+      <button onclick="showSolution('exercise2')">Show Solution</button>
+      <div id="solution2" class="solution" style="display: none">
+        <p><code>h2 { color: #e44d26; font-size: 1.5em; }</code></p>
+      </div>
+    </div>
+
+    <div class="exercise" id="exercise3">
+      <h2>Exercise 3: Add a Button</h2>
+      <p>
+        Insert a button on your page using the <code>&lt;button&gt;</code> tag.
+      </p>
+      <button onclick="showSolution('exercise3')">Show Solution</button>
+      <div id="solution3" class="solution" style="display: none">
+        <p><code>&lt;button&gt;Click me&lt;/button&gt;</code></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
