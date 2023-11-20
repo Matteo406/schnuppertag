@@ -7,3 +7,6 @@ function showSolution(exerciseId, solutionId) {
   solutionDiv.style.display =
     solutionDiv.style.display === "none" ? "block" : "none";
 }
+function goToSubpage(subpageUrl) {
+  window.location.href = subpageUrl;
+}
