@@ -43,6 +43,8 @@ button {
 
 .subpages {
   display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 /* Add more styles as needed */
